@@ -3,7 +3,7 @@
 public class Main {
     public static void main(String[] args) {
         BmiService service = new BmiService();
-        double bmi = service.calculate(98, 1.87);
+        double bmi = service.calculate(60, 1.83);
         int roundBmi = (int) (bmi + 0.5);
         System.out.println(roundBmi);
     }

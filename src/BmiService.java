@@ -5,7 +5,6 @@ public class BmiService {
         double height = h; // рост в см
         double heightSquare = h * h; // рост в квадрате
         double bmi = weight / heightSquare; // формула расчета
-        int index = 0;
         return bmi;
     }
 }
